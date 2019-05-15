@@ -1,0 +1,34 @@
+<h1>Created by Kong Yi Run</h1>
+<p>Hover and click the animals</p>
+<img id="bear"src="bear.png">
+<img id="dog" src="dog.png">
+
+<style>
+body{
+	text-align: center;
+	font-family: calibri;
+	background-image: linear-gradient(to top, red, blue, yellow, pink, orange, pink, yellow ,blue, red);
+	}
+	
+	img{
+		width: 300px;
+		height:370px;
+		cursor: pointer;
+		transition: 10s;
+		}
+		
+		img:hover{
+			transform: scale(5) rotate(10turn);
+		}
+</style>
+
+<script>
+	document.querySelector("#bear").onclick = () => {
+		alert("hello")
+	};
+	
+		document.querySelector("#dog").onclick = () => {
+		alert("hello")
+	};
+
+</script>
